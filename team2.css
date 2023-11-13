@@ -1,0 +1,120 @@
+/*  */
+
+.champions div {
+    margin-left: -2rem;
+    position: relative;
+    -webkit-box-flex: 0;
+    /* height: 540px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat; */
+    background-size: cover;
+    /* background-color: black; */
+    /* clip-path: polygon(24% 0, 100% 0, 76% 100%, 0% 100%); */
+    clip-path: polygon(10% 0%,
+            100% 0%,
+            90% 100%,
+            0% 100%);
+    width: 16rem;
+    height: 24rem;
+    
+
+}
+/* .champs:nth-child(2){
+    background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat;
+} */
+#champ-1{
+    background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat ;
+    /* background-size: cover; */
+}
+#champ-2{
+    background: url(../public/CSGO_Oya_kyossa.jpg.png) top no-repeat ;
+    background-size: cover;
+    
+}
+#champ-3{
+    background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat ;
+    background-size: cover;
+    
+}
+#champ-4{
+    background: url(../public/CSGO_Oya_kyossa.jpg.png) top no-repeat ;
+    background-size: cover;
+    
+}
+#champ-5{
+    background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat ;
+    background-size: cover;
+    
+}
+#champ-6{
+    background: url(../public/CSGO_Oya_kyossa.jpg.png) top no-repeat ;
+    background-size: cover;
+    
+}
+/* .latest-news{
+    width: max-content;
+    margin: auto;
+} */
+/* .champs div :nth-child(2n){
+    background: url(../public/CSGO_Oya_Juliano.jpg.png) top no-repeat;
+    margin-left: -2rem;
+    position: relative;
+    -webkit-box-flex: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    
+    clip-path: polygon(10% 0%,
+            100% 0%,
+            90% 100%,
+            0% 100%);
+    width: 16rem;
+    height: 24rem;
+} */
+
+.champions::after {
+    content: '';
+    /* background: #0079C1; */
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    /* transition: opacity 0.4s ease-in-out 0s; */
+}
+
+
+@media(max-width: 301px){
+    .news-cards .card{
+        width: 90% !important;
+        font-size: 80%;
+    }
+    .champions>div{
+        width: 90% !important;
+        height: 20rem;
+    }
+    .latest-matches .navs{
+        width: 90% !important;
+        font-size: 50%;
+    }
+    .latest-matches .navs a>h6{
+        /* width: 90% !important; */
+        font-size: 100% !important;
+    }
+}
+@media(max-width: 550px){
+    
+    .champions>div{
+        transform: translateX(10%);
+    }
+}

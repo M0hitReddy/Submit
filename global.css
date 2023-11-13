@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+}
+.bg-orange{
+    background-color: #FF5F00 !important;
+}
+.orange{
+    color: #FF5F00;
+}
+.f-oswald{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700 !important;
+}
+.f-oswald-400{
+    font-family: 'Oswald', sans-serif;
+    
+}

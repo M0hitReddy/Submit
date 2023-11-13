@@ -1,0 +1,78 @@
+.input {
+    width: auto !important;
+}
+
+input {
+    border-radius: 0px !important;
+    border: 1px gray solid;
+    outline: none !important;
+    width: 100%;
+    padding: 3px 5px;
+}
+
+input:focus {
+    border-radius: 0px !important;
+    border: 1px rgb(0, 0, 0) solid !important;
+    padding: 3px 5px;
+}
+
+.form>form {
+    /* width: auto; */
+    padding: 3rem;
+    /* margin-; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.contact-us h1 {
+    margin: 6rem;
+}
+
+.get-in-touch {
+    transform: translateY(-6rem);
+}
+
+.contact-us>div {
+    max-width: 64rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1029px) {
+    .contact-us>div {
+        gap: 3rem;
+        margin: 3rem;
+    }
+
+}
+@media only screen and (max-width: 821px) {
+    .get-in-touch {
+        transform: none;
+    }
+    
+
+}
+
+@media only screen and (max-width: 622px) {
+    .contact-us>div {
+        gap: 3rem;
+        /* margin: 10rem; */
+    }
+
+    form div {
+        display: flex;
+        width: 100%;
+    }
+
+    form {
+        width: 98%;
+        padding: 1rem !important;
+    }
+    .input{
+        width: 100% !important;
+    }
+    .contact-us h1 {
+        margin: 2rem;
+    }
+
+}

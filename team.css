@@ -1,0 +1,28 @@
+.games a>div{
+    /* width: 21rem;
+    height: 33.5rem; */
+    width: 18rem;
+    height: 29rem;
+    /* background: url(../public/valo.png) center ; */
+    /* -webkit-filter: grayscale(100%);  */
+    /* filter: grayscale(100%); */
+    /* background-size: cover; */
+    background:
+    linear-gradient(black, black),
+    url(../public/valo.png) center;
+  background-size: cover;
+  background-blend-mode: saturation;
+    /* backgroun ; */
+}
+
+
+@media(max-width: 336px){
+  .games>div a{
+    width: 90%;
+    height: 25rem
+  }
+  .games>div div{
+    width: 100%;
+    height: 100%;
+  }
+}

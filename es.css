@@ -1,0 +1,28 @@
+.exo-town img,.exo-town>div>div{
+    width: 30rem;
+}
+
+.exo-server>div{
+    width: 90%;
+    margin: auto;
+}
+@media only screen and (max-width: 520px) {
+    .exo-town img,.exo-town>div>div{
+        width: 20rem;
+    }
+
+}
+@media only screen and (max-width: 345px) {
+    .exo-town img,.exo-town>div>div{
+        width: 90%;
+        
+    }
+    main{
+        gap: 1rem !important;
+    }
+
+}
+
+
+
+

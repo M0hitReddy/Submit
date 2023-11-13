@@ -1,0 +1,9 @@
+.welcome{
+    width: max-content;
+}
+@media(max-width: 320px){
+    .news-cards .card{
+        width: 100% !important;
+        font-size: 80%;
+    }
+}

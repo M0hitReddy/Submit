@@ -1,0 +1,21 @@
+@media(max-width: 530px){
+    .exo-news img{
+        width: 100%;
+    }
+}
+@media(max-width: 300px){
+    .news-cards .card{
+        width: 100% !important;
+        font-size: 80%;
+    }
+}
+@media(max-width: 206px){
+    .pagination{
+        width: 90% !important;
+        font-size: 70%;
+        
+    }
+    .pagination img{
+        width: 10px !important;
+    }
+}

@@ -1,0 +1,43 @@
+.stats .stat{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.stats > div > div{
+    /* font-weight: 600 !important; */
+    margin: 0 3rem;
+}
+.our-mission img, .our-mission>div>div{
+    width: 20rem;
+}
+.stats>div>div{
+    /* gap: 4rem; */
+    margin: 1rem 2rem !important;
+}
+
+@media only screen and (max-width: 688px) {
+    .our-mission>div>div>div{
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 210px) {
+    .stats>div>div{
+        width: 90% !important;
+    }
+
+}
+@media only screen and (max-width: 335px) {
+    .leadership-team .card{
+        width: 90% !important;
+    }
+    .our-mission img{
+        width: 90% !important;
+    
+    }
+    .open-positions>div{
+        width: 90% !important;
+    }
+    .open-positions>div img{
+        width: 90% !important;
+    }
+}

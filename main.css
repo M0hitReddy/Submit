@@ -1,0 +1,281 @@
+.header h1 {
+    letter-spacing: 1px;
+}
+
+.header button {
+    font-size: .8rem;
+}
+
+.header>div {
+    gap: 6rem;
+    width: max-content;
+}
+
+.bg-effect .bg h1 {
+    font-size: 10rem;
+    font-weight: 700;
+    text-shadow: -1px 1px 0 #e1e1e1,
+        1px 1px 0 #e1e1e1,
+        1px -1px 0 #e1e1e1,
+        -1px -1px 0 #e1e1e1;
+}
+
+.bg {
+    bottom: 3rem !important;
+    z-index: -1;
+}
+
+.bg-effect .f-oswald {
+    font-size: 60px;
+}
+
+.news-card img {
+    width: 18rem;
+}
+
+.news-card {
+    width: 18rem;
+
+}
+
+.news-card .card-content {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.heros-list div {
+    margin-left: 0rem;
+    position: relative;
+    -webkit-box-flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../public/valo.png) top no-repeat;
+    background-size: cover;
+    clip-path: polygon(10% 0%,
+            100% 0%,
+            90% 100%,
+            0% 100%);
+    width: 16rem;
+    height: 22rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+.hero-list::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.review {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 47.9rem;
+    overflow-y: visible !important;
+    padding-top: 10rem;
+}
+
+.card-slide {
+    border: 3px #FF5F00 solid !important;
+
+}
+
+.card-slide img {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -20%;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.ecosystem-cards {
+    overflow-y: initial !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    /* overflow: hidden; */
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 40s slide infinite linear;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    /* Adjust styles for tablet layout */
+
+    .header img {
+        width: 90% !important;
+    }
+
+    .logos-slide img {
+        width: 3rem !important;
+        margin: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 195px) {
+
+
+    .partner-invite button {
+        width: 80%;
+        padding: 10px !important;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 60%;
+    }
+
+    .partner-invite button img {
+        width: 10px !important;
+
+    }
+
+}
+
+
+@media screen and (max-width: 765px) {
+    /* Adjust styles for tablet layout */
+
+    .review {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 354px) {
+    .swiper {
+
+        padding-top: 5rem;
+    }
+
+    .news-cards a>div {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .heros-list>div {
+        width: 80%;
+    }
+
+    .card {
+        width: 80% !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    /* Adjust styles for tablet layout */
+
+    .bg {
+        display: none;
+    }
+
+    .bg-effect div>h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 10vw !important;
+        text-align: center;
+    }
+
+    .executor-creatives>div>div {
+        justify-content: center;
+    }
+
+    .executor-creatives>div>p {
+        text-align: center;
+    }
+}

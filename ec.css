@@ -1,0 +1,48 @@
+.heading{
+    height: 18.2rem;
+    background: url(../public/headphones.png) center no-repeat;
+    background-size: cover;
+    
+    /* background-size: cover; */
+}
+
+.aspects img,.aspects div>div{
+    width: 28rem;
+}
+
+@media only screen and (max-width: 896px) {
+    .aspects>div>div{
+        /* width: auto; */
+        padding: 2rem 0rem !important;
+    }
+    /* .aspects img{
+        width: 18rem;
+        height: 18rem;
+    } */
+
+}
+@media only screen and (max-width: 450px) {
+    .aspects>div>div{
+        width: auto;
+        padding: 2rem  !important;
+    }
+    .aspects img{
+        width: 16rem;
+        /* height: 18rem; */
+    }
+
+}
+/* @media only screen and (max-width: 569px) {
+    .aspects>div>div{
+        width: auto;
+        padding: 0px 1rem !important;
+    }
+    .aspects img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .aspects>div{
+        flex-direction: column;
+    }
+
+} */

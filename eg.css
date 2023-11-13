@@ -1,0 +1,41 @@
+.heading{
+    height: 18.2rem;
+    background: url(../public/headphones.png) center no-repeat;
+    background-size: cover;
+    
+    /* background-size: cover; */
+}
+.gp-ip img, .desc{
+    max-width: 28rem;
+}
+.pg-showdown>div, .pg-showdown img{
+    width: 28rem;
+}
+@media(max-width: 944px){
+    .gp-ip>div>div{
+        text-align: center !important;
+    }
+}
+@media(max-width: 475px){
+    .gp-ip img{
+        width: 100%;;
+    }
+    .gp-ip{
+        width: 90%;
+        margin: auto;
+    }
+    .heading>div{
+        width: 90%;
+         margin: auto;
+    }
+    .heading img{
+        width: 100%;
+    }
+    .pg-showdown{
+        width: 90% !important;
+        margin: auto;
+    }
+    .pg-showdown  img{
+        width: 90% !important;
+    }
+}

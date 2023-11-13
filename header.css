@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width: 991px){
+    .nav-inside{
+        width: auto !important;
+    
+    }
+    .collapse>ul{
+        gap: 3rem !important;
+    }
+    
+}
+@media(max-width: 991px){
+    .collapse>ul{
+        gap: 0rem !important;
+    }
+    
+}
