@@ -43,9 +43,6 @@
     color: white;
 }
 
-
-
-
 .heros-list div {
     margin-left: 0rem;
     position: relative;
@@ -103,6 +100,7 @@
     border: 3px #FF5F00 solid !important;
 
 }
+
 
 .card-slide img {
     border-radius: 10px;

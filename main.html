@@ -93,8 +93,10 @@
                 <div class="d-flex gap-4 flex-column">
                     <h1 class="fw-bold text-black">Home of India's<br>Gaming Talents</h1>
                     <div class="buttons d-flex gap-3">
-                        <button class="portfolio fw-bold bg-orange py-2 px-3">Portfolio</button>
-                        <button class="get-in-touch fw-bold text-light bg-black py-2 px-3">Get in touch</button>
+                        <button id="scrollButton" class="portfolio fw-bold bg-orange py-2 px-3">Eco System</button>
+                        <button class="get-in-touch fw-bold text-light bg-black py-2 px-3"><a href="contactus.html"
+                                style="color: white;">Get in
+                                Touch</a></button>
                     </div>
                 </div>
                 <div class="img">
@@ -159,7 +161,7 @@
                 <p class="text-center">One stop for all the latest esports & gaming action.</p>
             </div>
             <div class="latest-news d-flex flex-column align-items-center my-5">
-                <h4 class="f-oswald">LATEST NEWS</h4>
+                <h4 id="nik " class="f-oswald">LATEST NEWS</h4>
                 <div class="news-cards d-flex justify-content-center flex-wrap gap-4 ">
 
 
@@ -210,12 +212,6 @@
                 <p class="text-center">Dive Into Our Diverse Ecosystem</p>
             </div>
             <div class="ecosystem-cards d-flex justify-content-center" style="overflow-x: auto;">
-
-
-
-
-
-
 
 
 
@@ -523,7 +519,12 @@
     </footer>
 
 
-
+    <script>
+        document.getElementById('scrollButton').addEventListener('click', function () {
+            // Scroll to the section with smooth behavior
+            document.querySelector('.ecosystem').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 
 
 
