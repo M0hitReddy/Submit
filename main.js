@@ -6,7 +6,7 @@ var copy = document.querySelector(".logos-slide").cloneNode(true);
 
         var swiper = new Swiper(".mySwiper", {
 
-            spaceBetween: 70,
+            spaceBetween: 150,
             loop: true,
             autoplay: true,
             // autoplay: {
