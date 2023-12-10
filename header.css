@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.nav-item ul li img{
+    padding: .8rem;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+}
+
 @media(min-width: 991px){
     .nav-inside{
         width: auto !important;

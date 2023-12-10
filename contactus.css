@@ -1,5 +1,6 @@
 .input {
     width: auto !important;
+    
 }
 
 input {
@@ -8,6 +9,12 @@ input {
     outline: none !important;
     width: 100%;
     padding: 3px 5px;
+    background-color: #99888838;
+}
+
+textarea{
+    background-color: #99888838;
+
 }
 
 input:focus {
@@ -26,7 +33,7 @@ input:focus {
 
 
 .contact-us h1 {
-    margin: 6rem;
+    margin-bottom: 5rem;
 }
 
 .get-in-touch {

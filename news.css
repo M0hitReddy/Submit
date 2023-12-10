@@ -1,6 +1,26 @@
+
+.divide{
+    height: 50px;
+    background-color: rgb(239, 240, 241);
+    transform: skewx(-7deg);
+}
+.carousel-item >div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(16rem,100%), 1fr));
+
+}
+
+
+
 @media(max-width: 530px){
     .exo-news img{
         width: 100%;
+    }
+}
+@media(min-width: 1105px){
+    .carousel-item >div{
+        grid-template-columns: 18rem 18rem 18rem 18rem;
+    
     }
 }
 @media(max-width: 300px){
