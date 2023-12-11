@@ -14,7 +14,9 @@
   background-blend-mode: saturation;
     /* backgroun ; */
 }
-
+.games>div{
+  max-width: 1500px;
+}
 
 @media(max-width: 336px){
   .games>div a{

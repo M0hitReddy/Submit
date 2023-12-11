@@ -17,7 +17,7 @@
         width: 100%;
     }
 }
-@media(min-width: 1105px){
+@media(min-width: 1240px){
     .carousel-item >div{
         grid-template-columns: 18rem 18rem 18rem 18rem;
     
